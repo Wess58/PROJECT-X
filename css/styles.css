@@ -46,11 +46,11 @@
   color: white;
   padding: 10px 20px 3px 20px;
   text-decoration: none;
-  transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all .2s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 #nav2 a:hover{
   text-decoration: none;
-  color:  #d5dbdb;
+  color:  #808b96;
 }
 #copyright{
   margin-left: 80%;
