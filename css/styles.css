@@ -1,7 +1,8 @@
 .quote{
-  font-family: 'Space Mono', monospace;
+  font-family: 'Indie Flower', cursive;
   max-width: 80%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  font-size: 26px;
 }
