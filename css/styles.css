@@ -1,0 +1,25 @@
+.about{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 4em;
+
+}
+.about h1{
+    font-family:'Cookie', cursive;
+    font-size: 32px;
+}
+
+#about{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 42px;
+}
+
+#story{
+    font-family: '', cursive,
+
+}
+
+#hesitate{
+    font-family: 'Tangerine', cursive;
+    font-size: 32px;
+}
