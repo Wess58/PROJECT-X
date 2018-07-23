@@ -4,18 +4,18 @@ beige: #fae596
 Light blue: #3fb0ac
 Dark Blue: #173e43
 */
+@import url('https://fonts.googleapis.com/css?family=Arvo|Bitter|EB+Garamond|Poppins|Rubik|Source+Serif+Pro|Work+Sans');
+
 
 .container-fill {
-  background: #173e43;
-}
-
-.navbar {
   background: #173e43;
 }
 
 .page-header {
   text-align: center;
   text-decoration: underline;
+  font-family: "Bitter";
+  color: white;
 }
 
 .timeline {
