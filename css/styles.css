@@ -1,3 +1,4 @@
+/*.............................. CATEGORIES SECTION.........................*/
 .categories {
   margin: 0;
   padding: 20px;
@@ -16,6 +17,7 @@
   text-align: left;
   line-height: 1.4em;
   font-size: 16px;
+  text-align: center;
 }
 
 .categoryFigure * {
@@ -80,3 +82,5 @@
 .categoryFigure:hover figcaption {
   top: 80px;
 }
+
+/*.............................. CATEGORIES SECTION.........................*/
