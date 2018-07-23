@@ -1,3 +1,12 @@
+
+.quote{
+  font-family: 'Indie Flower', cursive;
+  max-width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 26px;
+}
 #nav1{
   width: 97.5%;
   height: 40px;
@@ -5,7 +14,6 @@
   font-family: 'Gugi', cursive;
   font-size: 18px;
   position: fixed;
-
 }
 #nav1 a{
   display: block;
@@ -19,7 +27,6 @@
   background-color: #85929e;
   text-decoration: none;
   color: white;
-
 }
 #rightnav{
   padding-left: 80%;
@@ -27,7 +34,6 @@
 #logo{
   font-family: 'Shojumaru', cursive;
   font-size: 18px;
-
 }
 #nav2{
   margin-top:30%;
@@ -38,7 +44,6 @@
   font-size: 18px;
   position: fixed;
   bottom: 0;
-
 }
 #nav2 a{
   display: block;
@@ -55,14 +60,10 @@
 #copyright{
   margin-left: 80%;
   padding-top: 20px;
-
 }
 #logo2{
-
   font-family: 'Shojumaru', cursive;
   font-size: 40px;
   padding: 0px 20px 0px 20px;
   margin-left: 40%;
-
-
 }
