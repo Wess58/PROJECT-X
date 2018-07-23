@@ -1,3 +1,77 @@
+/*...............NAVIGATION...............*/
+#nav1{
+  width: 97.5%;
+  height: 40px;
+  background-color: #2C4251;
+  font-family: 'Gugi', cursive;
+  font-size: 18px;
+  position: fixed;
+}
+#nav1 a{
+  display: block;
+  float: left;
+  color: white;
+  padding: 10px 10px 3px 20px;
+  text-decoration: none;
+  transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+#nav1 a:hover{
+  background-color: #85929e;
+  text-decoration: none;
+  color: white;
+}
+#rightnav{
+  padding-left: 80%;
+}
+#logo{
+  font-family: 'Shojumaru', cursive;
+  font-size: 18px;
+}
+#nav2{
+  margin-top:30%;
+  width: 97.5%;
+  height: 60px;
+  background-color: #2C4251;
+  font-family: 'Gugi', cursive;
+  font-size: 18px;
+  position: fixed;
+  bottom: 0;
+}
+#nav2 a{
+  display: block;
+  float: left;
+  color: white;
+  padding: 10px 20px 3px 20px;
+  text-decoration: none;
+  transition: all .2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+#nav2 a:hover{
+  text-decoration: none;
+  color:  #808b96;
+}
+#copyright{
+  margin-left: 80%;
+  padding-top: 20px;
+}
+#logo2{
+  font-family: 'Shojumaru', cursive;
+  font-size: 40px;
+  padding: 0px 20px 0px 20px;
+  margin-left: 40%;
+}
+
+
+/*...............QUOTE...............*/
+.quote{
+  font-family: 'Indie Flower', cursive;
+  max-width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 26px;
+}
+
+/*...................ABOUT...................*/
 .about{
     text-align: center;
     font-size: 23px;
