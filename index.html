@@ -15,7 +15,7 @@
 
 <body>
   <div class="container-fluid">
-      <nav id="nav1">
+      <!-- <nav id="nav1">
         <a id="logo" href="#">LOGO</a>
         <a href="#">EVENTS</a>
         <a href="#">ABOUT</a>
@@ -23,15 +23,34 @@
         <div id="rightnav">
           <a href="#">Sign In</a>
           <a href="#">LOGIN</a>
-          <!-- search glyph-->
+
         </div>
-      </nav>
-    
-    <!--.......................................Quote................................-->
-    <div class="quote">
-      <p id="quotes"></p>
-    </div>
-    
+      </nav> -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
    <!--.......................................Carousel................................-->
   <div class="jumbotron">
     <div id="carouselLanding" class="carousel slide" data-ride="carousel">
@@ -124,6 +143,12 @@
   </div>
   <!--.......................................endCarousel................................-->
 
+  <!--.......................................Quote................................-->
+  <div class="quote">
+    <p id="quotes"></p>
+  </div>
+
+
     <!--.......................................Categories................................-->
 <div class="row categories">
 <figure class="categoryFigure">
@@ -178,15 +203,15 @@
     <h2>WHAT DRIVES US</h2><br>
   <p id = "story">At loci artium, we believe there is a better way of potraying art and also doing marketing.<br>
      A more valuable, less invasive way where customers are earned rather than bought. <br>
-     We're obsessively passionate about upcoming artisans and our mission is to help them 
+     We're obsessively passionate about upcoming artisans and our mission is to help them
      achieve their ulitimate dream and get outcome from their work if you need.......
     <a href="AboutUs">Read More</a>
     </p>
     </div>
       <div class="col-md-6">
-          <p id = "hesitate">Do not hesitate to contact Us!</p> 
+          <p id = "hesitate">Do not hesitate to contact Us!</p>
      <form class = "form" style action= target="_blank">
-      <div> 
+      <div>
         <label><b id="Name">Name:</b></label>
         <input  type="text" required="" name="Name" >
       </div>
@@ -203,13 +228,24 @@
   </div>
     </div>
 </div>
-  
+
   <!--.....................Footer....................-->
-  <div class="footer">
+  <!-- <div class="footer">
     <nav id="nav2">
       <a href="#">ABOUT</a>
       <a id="logo2" href="#">LOGO</a>
-      <p id="copyright">Copyright © 2018 ART</p>
+      <p id="copyright">Copyright © 2018 ART</p> -->
+      <!-- Footer -->
+        <footer class="page-footer font-small blue">
+
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3" style="background: #212121; color: white;">© 2018 Copyright:
+            <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
+          </div>
+          <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
     </nav>
   </div>
 
