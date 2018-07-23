@@ -1,27 +1,38 @@
 <!DOCTYPE.html>
 <html>
+
 <head>
   <meta charset="utf-8">
-  <title>PORFOLIO</title>
+  <title>ART</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="">
+  <link href="https://fonts.googleapis.com/css?family=Cookie|Tangerine|Cabin+Sketch|El+Messiri|Fredericka+the+Great|Rye|Space+Mono|Poor+Story|Indie+Flower|Cute+Font|Gugi|Rye|Shojumaru" rel="stylesheet">
   <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap.js"></script>
   <script src="js/scripts.js"></script>
 
 </head>
+
 <body>
- <div class="container-fluid">
-  <div class="nav">
+  <div class="container-fluid">
+      <nav id="nav1">
+        <a id="logo" href="#">LOGO</a>
+        <a href="#">EVENTS</a>
+        <a href="#">ABOUT</a>
 
-  </div>
-
-  <div class="quote">
-
-  </div>
-
-  /*.......................................Carousel................................*/
+        <div id="rightnav">
+          <a href="#">Sign In</a>
+          <a href="#">LOGIN</a>
+          <!-- search glyph-->
+        </div>
+      </nav>
+    
+    <!--.......................................Quote................................-->
+    <div class="quote">
+      <p id="quotes"></p>
+    </div>
+    
+   <!--.......................................Carousel................................-->
   <div class="jumbotron">
     <div id="carouselLanding" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -111,23 +122,98 @@
       </a>
     </div>
   </div>
-  /*.......................................endCarousel................................*/
-<div class="categories">
+  <!--.......................................endCarousel................................-->
 
+    <!--.......................................Categories................................-->
+<div class="row categories">
+<figure class="categoryFigure">
+  <img src="images/categories/illustration.jpg" alt="Illustration image">
+  <figcaption>
+    <h3>Illustrations</h3>
+    <p>This category contains: Drawings, Paintings, Caricature and the likes. Click to view more</p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+<figure class="categoryFigure">
+  <img src="images/categories/photography.jpeg" alt="photography image">
+  <figcaption>
+    <h3>Photography</h3>
+    <p>This category contains professionally-captured photos. Click to view more</p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+<figure class="categoryFigure">
+  <img src="images/categories/largescale.jpg" alt="Mural image">
+  <figcaption>
+    <h3>Large Scale</h3>
+    <p>This category contains Murals and graffiti. Click to view more</p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+<figure class="categoryFigure">
+  <img src="images/categories/callig.jpg" alt="Calligraphy image">
+  <figcaption>
+    <h3>Calligraphy/Signage</h3>
+    <p>This category contains text related graphics. Click to view more</p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+<figure class="categoryFigure">
+  <img src="images/categories/sculpture.jpg" alt="sculpture image">
+  <figcaption>
+    <h3>Sculptures</h3>
+    <p>This category contains sculptures Click to view more</p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
 </div>
+<!--.......................................End Categories................................-->
 
+<!--.......................................About................................-->
 <div class="about">
+  <div class="row">
+    <div class="col-md-6" id="col-6-1">
+  <section id = "about">ABOUT US.</section>
+  <h1><em>"Art is not what you see but what you make others see." </em></h1><br>
+    <h2>WHAT DRIVES US</h2><br>
+  <p id = "story">At loci artium, we believe there is a better way of potraying art and also doing marketing.<br>
+     A more valuable, less invasive way where customers are earned rather than bought. <br>
+     We're obsessively passionate about upcoming artisans and our mission is to help them 
+     achieve their ulitimate dream and get outcome from their work if you need.......
+    <a href="AboutUs">Read More</a>
+    </p>
+    </div>
+      <div class="col-md-6">
+          <p id = "hesitate">Do not hesitate to contact Us!</p> 
+     <form class = "form" style action= target="_blank">
+      <div> 
+        <label><b id="Name">Name:</b></label>
+        <input  type="text" required="" name="Name" >
+      </div>
+      <div >
+        <label><b id="Name">Email:</b></label>
+        <input class="" required="" name="Email">
+      </div>
+      <div >
+        <label><b id="Name">Message:</b></label>
+        <input class="" required="" name="Text">
+      </div>
+      <button type="submit" class="btn btn-dark-white">Send</button>
+    </form>
+  </div>
+    </div>
+</div>
+  
+  <!--.....................Footer....................-->
+  <div class="footer">
+    <nav id="nav2">
+      <a href="#">ABOUT</a>
+      <a id="logo2" href="#">LOGO</a>
+      <p id="copyright">Copyright © 2018 ART</p>
+    </nav>
+  </div>
 
 </div>
-
-<div class="footer">
-
-</div>
-
-
-
- </div>
-
-
 </body>
+
 </html>
