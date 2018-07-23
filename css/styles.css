@@ -1,5 +1,5 @@
 #nav1{
-  width: 100%;
+  width: 97.5%;
   height: 40px;
   background-color: #2C4251;
   font-family: 'Gugi', cursive;
@@ -11,7 +11,7 @@
   display: block;
   float: left;
   color: white;
-  padding: 10px 20px 3px 20px;
+  padding: 10px 10px 3px 20px;
   text-decoration: none;
   transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -22,13 +22,50 @@
 
 }
 #rightnav{
-  margin-left: 85%;
+  padding-left: 80%;
 }
 #logo{
 
   font-family: 'Shojumaru', cursive;
   font-size: 20px;
   padding: 5px 20px 5px 20px;
+
+
+}
+#nav2{
+  margin-top:30%;
+  width: 97.5%;
+  height: 60px;
+  background-color: #2C4251;
+  font-family: 'Gugi', cursive;
+  font-size: 18px;
+  position: fixed;
+  bottom: 0;
+
+}
+#nav2 a{
+  display: block;
+  float: left;
+  color: white;
+  padding: 10px 20px 3px 20px;
+  text-decoration: none;
+  transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+#nav2 a:hover{
+  text-decoration: none;
+  color:  #d5dbdb;
+}
+#copyright{
+  margin-left: 80%;
+  padding-top: 20px;
+
+}
+#logo2{
+
+  font-family: 'Shojumaru', cursive;
+  font-size: 40px;
+  padding: 0px 20px 0px 20px;
+  margin-left: 40%;
 
 
 }
