@@ -71,6 +71,92 @@
   font-size: 26px;
 }
 
+/*.............................. CATEGORIES SECTION.........................*/
+.categories {
+  margin: 0;
+  padding: 20px;
+  background: #212121;
+}
+
+.categoryFigure {
+  font-family: Arial;
+  position: relative;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #141414; /* TODO: Change this later to colour scheme */
+  text-align: left;
+  line-height: 1.4em;
+  font-size: 16px;
+  text-align: center;
+}
+
+.categoryFigure * {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  transition: all 0.35s ease;
+}
+
+.categoryFigure img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.categoryFigure figcaption {
+  position: absolute;
+  top: calc(77%);
+  width: 100%;
+  background-color: white;
+  padding: 15px 25px 65px;
+}
+
+.categoryFigure figcaption:before {
+  position: absolute;
+  content: '';
+  z-index: 2;
+  bottom: 100%;
+  left: 0%;
+  width: 100%;
+  height: 80px;
+  background-image: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+  background-image: -moz-linear-gradient(top, transparent 0%, #ffffff 100%);
+  background-image: -o-linear-gradient(top, transparent 0%, #ffffff 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, #ffffff 100%);
+}
+
+.categoryFigure h3,
+.categoryFigure p {
+  margin: 0 0 10px;
+}
+.categoryFigure h3 {
+  font-weight: 300;
+  font-size: 1.4em;
+  line-height: 1.2em;
+  font-family: 'Oswald', Arial, sans-serif;
+  text-transform: uppercase;
+}
+.categoryFigure p {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+.categoryFigure a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.categoryFigure:hover figcaption {
+  top: 80px;
+}
+
+
 /*...................ABOUT...................*/
 .about{
     text-align: center;
