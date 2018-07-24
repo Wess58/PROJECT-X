@@ -8,6 +8,7 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Handlee|Merienda" rel="stylesheet">
   <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/scripts.js"></script>
@@ -18,9 +19,9 @@
   <div class="container-fluid">
   <!--................Navbar.....................-->
   <nav class="navbar navbar-expand-lg animated bounceInDown">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">LOGO</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -34,10 +35,11 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Contact Us</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" id="login-nav">LOGIN</a>
-      </li>
     </ul>
+    <ul class="navbar-nav pull-right">
+      <li class="nav-item">
+       <a class="nav-link ml-auto" href="#" id="login-nav">Login</a>
+     </li>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
@@ -215,7 +217,7 @@
       <a href="#"></a>
     </figure>
     <figure class="categoryFigure">
-      <img src="images/categories/sculpture.jpg" alt="sculpture image">
+      <img src="images/categories/mantree.jpg" alt="sculpture image">
       <figcaption>
         <h3>Computer Aided Design</h3>
         <p>This category contains Computer Aided Design images. Click to view more</p>
@@ -230,31 +232,36 @@
     <div class="about">
       <div class="row">
         <div class="col-md-6" id="col-6-1">
-      <section id = "about">ABOUT US.</section>
-      <h1><em>"Art is not what you see but what you make others see." </em></h1><br>
-        <h2>WHAT DRIVES US</h2><br>
-          <p id = "story">At loci artium, we believe there is a better way of potraying art and also doing marketing.<br>
-           A more valuable, less invasive way where customers are earned rather than bought. <br>
+      <section id = "about">ABOUT US:</section>
+      <hr>
+      <h1><em>"Art is not what you see but what you make others see." </em></h1>
+      <hr>
+        <h2>WHAT DRIVES US</h2>
+          <p id = "story">At loci artium, we believe there is a better way of potraying art and also doing marketing.
+           A more valuable, less invasive way where customers are earned rather than bought.
            We're obsessively passionate about upcoming artisans and our mission is to help them
            achieve their ulitimate dream and get outcome from their work if you need.......
           <a href="AboutUs">Read More</a>
           </p>
         </div>
         <div class="col-md-6">
-          <p id = "hesitate">Do not hesitate to contact Us!</p>
+          <p id = "hesitate">Contact Us</p>
          <form class = "form" style action= target="_blank">
           <div>
             <label><b id="Name">Name:</b></label>
             <input  type="text" required="" name="Name" >
           </div>
-          <div >
+          <hr>
+          <div>
             <label><b id="Name">Email:</b></label>
             <input class="" required="" name="Email">
           </div>
-          <div >
-            <label><b id="Name">Message:</b></label>
-            <input class="" required="" name="Text">
+          <hr>
+          <div>
+            <label><b id="Name">Note:</b></label>
+            <input class="" required="" name="Text" placeholder="Insert Message">
           </div>
+          <hr>
           <button type="submit" class="btn btn-dark-white">Send</button>
         </form>
       </div>
