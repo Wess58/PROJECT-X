@@ -199,6 +199,11 @@ Dark Blue: #173e43
   margin: 0;
 }
 
+.open-caret {
+    transform: rotate(180deg);
+    transition: all .25s ease-out;
+  }
+
 @media (max-width: 767px) {
   ul.timeline:before {
     left: 40px;
