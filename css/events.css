@@ -156,13 +156,16 @@ Dark Blue: #173e43
   background-color: #5bc0de !important;
 }
 
-.timeline-panel a {
+.timeline-panel {
   color: black;
 }
 
-.timeline-panel a:hover {
-  text-decoration: none;
+.timeline-panel:hover{
   cursor: pointer;
+}
+
+.timeline-panel a {
+  margin: 3% 0;
 }
 
 .timeline-panel.card:hover {
@@ -172,6 +175,10 @@ Dark Blue: #173e43
 
 .timeline-title {
   margin-top: 0;
+}
+
+.timeline-body  {
+  display: none;
 }
 
 .timeline-body p, .timeline-body ul {
