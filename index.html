@@ -6,7 +6,7 @@
   <title>ART</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Cookie|Tangerine|Cabin+Sketch|El+Messiri|Fredericka+the+Great|Rye|Space+Mono|Poor+Story|Indie+Flower|Cute+Font|Gugi|Rye|Shojumaru" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cookie|Tangerine|Cabin+Sketch|El+Messiri|Fredericka+the+Great|Rye|Space+Mono|Poor+Story|Indie+Flower|Cute+Font|Gugi|Rye|Shojumaru|Fredericka+the+Great" rel="stylesheet">
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/scripts.js"></script>
@@ -15,29 +15,59 @@
 
 <body>
   <div class="container-fluid">
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <!--................Navbar.....................-->
+  <nav class="navbar navbar-expand-lg"  style="background-color: #212121;">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" id="login-nav">LOGIN</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+    <!--................endNavbar.....................-->
+
+    <!-- ..................login modal.................... -->
+
+  <div id="id01" class="modal">
+  <form class="modal-content animate" action="/action_page.php">
+    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="cancelbtn" id="login-cancel">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<!-- ......................end login modal......................... -->
 
 
     <!--.......................................Carousel................................-->
@@ -130,113 +160,114 @@
       </a>
       </div>
     </div>
-    <!--.......................................endCarousel................................-->
+  </div>
+  <hr>
+  <!--.......................................endCarousel................................-->
 
-    <!--.......................................Quote................................-->
-    <div class="quote">
-      <p id="quotes"></p>
-    </div>
-
+  <!--.......................................Quote................................-->
+  <div class="quote">
+    <p id="quotes"></p>
+  </div>
+  <hr>
 
     <!--.......................................Categories................................-->
-    <div class="row categories">
-      <figure class="categoryFigure">
-        <img src="images/categories/illustration.jpg" alt="Illustration image">
-        <figcaption>
-          <h3>Illustrations</h3>
-          <p>This category contains: Drawings, Paintings, Caricature and the likes. Click to view more</p>
-        </figcaption>
-        <a href="#"></a>
-      </figure>
-      <figure class="categoryFigure">
-        <img src="images/categories/photography.jpeg" alt="photography image">
-        <figcaption>
-          <h3>Photography</h3>
-          <p>This category contains professionally-captured photos. Click to view more</p>
-        </figcaption>
-        <a href="#"></a>
-      </figure>
-      <figure class="categoryFigure">
-        <img src="images/categories/largescale.jpg" alt="Mural image">
-        <figcaption>
-          <h3>Large Scale</h3>
-          <p>This category contains Murals and graffiti. Click to view more</p>
-        </figcaption>
-        <a href="#"></a>
-      </figure>
-      <figure class="categoryFigure">
-        <img src="images/categories/callig.jpg" alt="Calligraphy image">
-        <figcaption>
-          <h3>Calligraphy/Signage</h3>
-          <p>This category contains text related graphics. Click to view more</p>
-        </figcaption>
-        <a href="#"></a>
-      </figure>
-      <figure class="categoryFigure">
-        <img src="images/categories/sculpture.jpg" alt="sculpture image">
-        <figcaption>
-          <h3>Sculptures</h3>
-          <p>This category contains sculptures Click to view more</p>
-        </figcaption>
-        <a href="#"></a>
-      </figure>
+  <div class="row categories1">
+    <figure class="categoryFigure">
+      <img src="images/categories/illustration.jpg" alt="Illustration image">
+      <figcaption>
+        <h3>Illustrations</h3>
+        <p>This category contains: Drawings, Paintings, Caricature and the likes. Click to view more</p>
+      </figcaption>
+      <a href="#"></a>
+    </figure>
+    <figure class="categoryFigure">
+      <img src="images/categories/photography.jpeg" alt="photography image">
+      <figcaption>
+        <h3>Photography</h3>
+        <p>This category contains professionally-captured photos. Click to view more</p>
+      </figcaption>
+      <a href="#"></a>
+    </figure>
+    <figure class="categoryFigure">
+      <img src="images/categories/largescale.jpg" alt="Mural image">
+      <figcaption>
+        <h3>Large Scale</h3>
+        <p>This category contains Murals and graffiti. Click to view more</p>
+      </figcaption>
+      <a href="#"></a>
+    </figure>
     </div>
+    <div class="row categories2">
+    <figure class="categoryFigure">
+      <img src="images/categories/callig.jpg" alt="Calligraphy image">
+      <figcaption>
+        <h3>Calligraphy/Signage</h3>
+        <p>This category contains text related graphics. Click to view more</p>
+      </figcaption>
+      <a href="#"></a>
+    </figure>
+    <figure class="categoryFigure">
+      <img src="images/categories/sculpture.jpg" alt="sculpture image">
+      <figcaption>
+        <h3>Sculptures</h3>
+        <p>This category contains sculptures Click to view more</p>
+      </figcaption>
+      <a href="#"></a>
+    </figure>
+    <figure class="categoryFigure">
+      <img src="images/categories/sculpture.jpg" alt="sculpture image">
+      <figcaption>
+        <h3>Sculptures</h3>
+        <p>This category contains sculptures Click to view more</p>
+      </figcaption>
+      <a href="#"></a>
+    </figure>
+    </div>
+    <hr>
     <!--.......................................End Categories................................-->
 
     <!--.......................................About................................-->
     <div class="about">
       <div class="row">
         <div class="col-md-6" id="col-6-1">
-          <section id="about">ABOUT US.</section>
-          <h1><em>"Art is not what you see but what you make others see." </em></h1><br>
-          <h2>WHAT DRIVES US</h2><br>
-          <p id="story">At loci artium, we believe there is a better way of potraying art and also doing marketing.<br> A more valuable, less invasive way where customers are earned rather than bought. <br> We're obsessively passionate about upcoming artisans and our
-            mission is to help them achieve their ulitimate dream and get outcome from their work if you need.......
-            <a href="AboutUs">Read More</a>
+      <section id = "about">ABOUT US.</section>
+      <h1><em>"Art is not what you see but what you make others see." </em></h1><br>
+        <h2>WHAT DRIVES US</h2><br>
+          <p id = "story">At loci artium, we believe there is a better way of potraying art and also doing marketing.<br>
+           A more valuable, less invasive way where customers are earned rather than bought. <br>
+           We're obsessively passionate about upcoming artisans and our mission is to help them
+           achieve their ulitimate dream and get outcome from their work if you need.......
+          <a href="AboutUs">Read More</a>
           </p>
         </div>
         <div class="col-md-6">
-          <p id="hesitate">Do not hesitate to contact Us!</p>
-          <form class="form" style action=t arget="_blank">
-            <div>
-              <label><b id="Name">Name:</b></label>
-              <input type="text" required="" name="Name">
-            </div>
-            <div>
-              <label><b id="Name">Email:</b></label>
-              <input class="" required="" name="Email">
-            </div>
-            <div>
-              <label><b id="Name">Message:</b></label>
-              <input class="" required="" name="Text">
-            </div>
-            <button type="submit" class="btn btn-dark-white">Send</button>
-          </form>
-        </div>
+          <p id = "hesitate">Do not hesitate to contact Us!</p>
+         <form class = "form" style action= target="_blank">
+          <div>
+            <label><b id="Name">Name:</b></label>
+            <input  type="text" required="" name="Name" >
+          </div>
+          <div >
+            <label><b id="Name">Email:</b></label>
+            <input class="" required="" name="Email">
+          </div>
+          <div >
+            <label><b id="Name">Message:</b></label>
+            <input class="" required="" name="Text">
+          </div>
+          <button type="submit" class="btn btn-dark-white">Send</button>
+        </form>
       </div>
     </div>
-
-    <!--.....................Footer....................-->
-    <!-- <div class="footer">
-    <nav id="nav2">
-      <a href="#">ABOUT</a>
-      <a id="logo2" href="#">LOGO</a>
-      <p id="copyright">Copyright © 2018 ART</p> -->
-    <!-- Footer -->
-    <footer class="page-footer font-small blue">
-
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3" style="background: #212121; color: white;">© 2018 Copyright:
-        <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
-      </div>
-      <!-- Copyright -->
-
-    </footer>
-    <!-- Footer -->
-    </nav>
   </div>
+  <hr>
 
-  </div>
+  <!--.....................Footer....................-->
+  <footer class="page-footer font-small blue">
+    <div class="footer-copyright text-center py-3" style="background: #212121; color: white;">© 2018 Copyright:
+      <a href="#">Art</a>
+    </div>
+  </footer>
 </body>
 
 </html>
