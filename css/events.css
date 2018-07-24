@@ -133,7 +133,7 @@ Dark Blue: #173e43
 }
 
 .timeline-badge.light {
-  background-color: #44cdc8 !important;
+  background-color: #449ccd !important;
 }
 
 .timeline-badge.beige {
@@ -160,9 +160,6 @@ Dark Blue: #173e43
   color: black;
 }
 
-.timeline-panel:hover{
-  cursor: pointer;
-}
 
 .timeline-panel a {
   margin: 3% 0;
@@ -172,6 +169,12 @@ Dark Blue: #173e43
   box-shadow: 2px 2px 20px black;
   transition: 0.5s ease;
 }
+
+.timeline-title:hover{
+  cursor: pointer;
+  text-decoration: underline black;
+}
+
 
 .timeline-title {
   margin-top: 0;
