@@ -223,6 +223,8 @@ hr {
 footer {
   font-family: 'Handlee', cursive;
   font-size: 20px;
+  background: #212121;
+  color: white;
 }
 
 
