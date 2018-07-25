@@ -1,5 +1,4 @@
 //This is the quto randomizer using the forismatic API and ajax.
-
 function randomQuote() {
   $.ajax({
       url: "https://api.forismatic.com/api/1.0/?",
@@ -26,7 +25,7 @@ $(document).ready(function(){
   $('.close').click(function(){
     $('#id01').css('display','none');
   });
-  // Get the modal
+//  Get the modal
 var modal = document.getElementById('id01');
 
 $(document).click(function(event){

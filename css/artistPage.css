@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Bitter|EB+Garamond|Poppins|Rubik|Source+Serif+Pro|Work+Sans');
+.artist-page-header {
+  margin: 0;
+  text-align: center;
+}
+
+.header-section-1 {
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid black;
+}
+
+.header-section-1 img {
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin: 30px 0;
+  height: 25vh;
+  border: 2px solid black;
+}
+
+.header-section-1 h3 {
+  margin: 0;
+  padding: 0 0 5px 0;
+  font-family: "Bitter", cursive;
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.header-section-2 {
+  margin: 0;
+  padding: 20px;
+  color: white;
+  font-family: "Bitter", cursive;
+}
+
+.header-section-2 h3, .header-section-2 .info-title {
+  text-decoration: underline;
+}
+
+.header-section-2 h3 {
+  text-align: center;
+}
+
+.header-section-2 .info-title {
+  margin-left: 20px;
+}
+
+.header-section-2 p {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.artwork {
+  margin: 0;
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 1em;
+  display: flex block;
+}
+
+.artwork h2 {
+  margin: 0;
+  padding: 30px 0 30px 0;
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+.page-footer {
+  margin: 0;
+}
+
+.hire {
+  background: rgb(0, 135, 245);
+  font-size: 20px;
+  font-family: "Bitter", cursive;
+}
+
+
+/* hire modal */
+/* Full-width input fields */
+#id02 input[type=text], input[type=email], textarea{
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#id02 textarea{
+  height: 10rem;
+}
+
+
+/* Set a style for all buttons */
+#id02 button {
+    background-color: rgb(0, 135, 245);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%%;
+    align-self: flex-start;
+}
+
+#id02 button:hover {
+    opacity: 0.8;
+}
+
+/* The Modal (background) */
+id02 .modal{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+#id02 .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+    text-align: center;
+}
+
+
+#id02 .close {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Add Zoom Animation */
+#id02 .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+#id02 @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+#id02 @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+/* Change styles for span and cancel button on extra small screens */
+#id02 @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
