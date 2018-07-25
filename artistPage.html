@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ART</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="css/artistPage.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Handlee|Merienda" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!--................Navbar.....................-->
+    <nav class="navbar navbar-expand-lg animated bounceInDown">
+      <a class="navbar-brand" href="#">ART te rue</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav pull-right">
+          <li class="nav-item">
+            <a class="nav-link ml-auto" href="#" id="login-nav">Login</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!--................endNavbar.....................-->
+
+    <!-- ..................login modal.................... -->
+    <div id="id01" class="modal">
+      <form class="modal-content animate" action="/action_page.php">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+          <button type="submit">Login</button>
+          <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+        </div>
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn" id="login-cancel">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+    <!-- ......................end login modal......................... -->
+
+    <!-- ............................... ARTIST PAGE ..................................-->
+    <div class="artistPage">
+      <div class="artist-page-header">
+        <img src="images/defaultArtistPage/user.png" alt="User Image">
+        <h3> Artist Name </h3>
+    </div>
+    <!-- ...............................END ARTIST PAGE ..................................-->
+
+
+    <!--.....................Footer....................-->
+    <footer class="page-footer font-small blue">
+      <div class="footer-copyright text-center py-3" style="background: #212121; color: white;">© 2018 Copyright:
+        <a href="#">Art te rue</a>
+      </div>
+    </footer>
+
+  </div>
+</body>
