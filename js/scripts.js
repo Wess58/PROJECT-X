@@ -25,7 +25,7 @@ $(document).ready(function(){
   $('.close').click(function(){
     $('#id01').css('display','none');
   });
-  // Get the modal
+//  Get the modal
 var modal = document.getElementById('id01');
 
 $(document).click(function(event){

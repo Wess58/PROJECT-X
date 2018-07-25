@@ -13,14 +13,14 @@
 body {
   background-image: linear-gradient(to right, black, #9A2617, #008B8B, black);
 }
-/*.............................endBody................ */
+/*.............................endBody.............*/
 /*.............................hr................ */
 hr {
   border: none;
 }
-/*.............................endHr................ */
+/*......................endHr.................... */
 
-/*...............JUMBOTRON...............*/
+/*.....................JUMBOTRON.................*/
 .jumbotron {
   padding: 0;
   border-top: 50px;
@@ -168,11 +168,21 @@ hr {
 
 
 /*...................ABOUT...................*/
+.card-body {
+  background: none;
+  border-radius: 5px;
+}
+
+.card-body:hover {
+  box-shadow: black 0px 0px 20px 5px; 
+}
+
 .about{
     text-align: center;
     font-size: 23px;
     margin-top: 4em;
     margin: 0;
+    padding: 5px 40px 50px 40px;
     background: none;
 }
 
@@ -292,7 +302,7 @@ footer {
     cursor: pointer;
 }
 /* Add Zoom Animation */
-.animate {
+#id01 .animate {
     -webkit-animation: animatezoom 0.6s;
     animation: animatezoom 0.6s
 }
