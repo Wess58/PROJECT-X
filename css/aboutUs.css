@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant');
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#box1{
+  height: 80vh;
+  width: 100%;
+  margin-bottom: -0.75em;
+  background-color:#A8E6CE;
+  background-size: cover;
+  background-attachment: fixed;
+  display:table;
+  text-align:center;
+  transform-style: preserve-3d;
+  position: relative;
+  font-family: 'Cormorant', serif;
+  font-size: 32px;
+  color: black;
+}
+
+#box1 h1{
+    text-align: center;
+  font-size: 21px;
+  color: black;
+  font-family: 'Cormorant', serif;
+
+}
+
+#box2{
+  height: 100vh;
+  width: 100%;
+  margin 0;
+  padding: 20px;
+  background-color: #E5FCC2;
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  color: #45ADA8;
+  font-size: 25px;
+  font-family: 'Merienda', cursive;
+  text-align: center;
+FFD3B5;
+}
+#box2 h1{
+  /* margin-top: 4em; */
+}
+#box2 p{
+  font-size: 21px;
+
+}
+
+.cont1{
+  background-color: #E5FCC2;
+  box-shadow: 2px 5px 5px 2px  #797d7f ;
+  margin-bottom: 2em;
+}
+.btn-outline-success{
+  margin-bottom: 3em;
+  width: 130px;
+  transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.btn-outline-success:hover{
+  box-shadow: 0 10px 15px 0 grey ;
+}
+.jumbo{
+  margin: 0;
+  margin-bottom: 2em;
+  padding: 20px 0 10px 0;
+  background-color: #e9ecef;
+  text-align: center;
+  font-size: 23px;
+}
+.avatar{
+  width: 100px;
+  height: 100px;
+
+
+}
+.rowAV1{
+  margin-bottom: 3em;
+}
+h3{
+  font-family: 'Righteous', cursive;
+}
+.jumbo p{
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+}
+
+footer {
+  margin-bottom: -0.5em;
+}
