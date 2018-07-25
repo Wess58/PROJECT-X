@@ -21,6 +21,19 @@ Dark Blue: #173e43
   color: #9A2617;
 }
 
+.fas.fa-bars {
+  color: white;
+}
+
+.navbar .nav-link.active {
+  background: #9A2617;
+  color: white;
+}
+.navbar .nav-link:hover {
+  background: #008888;
+  color: white;
+}
+
 .page-header {
   text-align: center;
   text-decoration: underline;
