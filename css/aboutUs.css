@@ -68,7 +68,6 @@ FFD3B5;
 }
 .jumbo{
   margin: 0;
-  margin-bottom: 2em;
   padding: 20px 0 10px 0;
   background-color: #e9ecef;
   text-align: center;
@@ -89,8 +88,27 @@ h3{
 .jumbo p{
   font-family: 'Shadows Into Light', cursive;
   font-weight: bold;
+
+}
+.jumbo h1{
+  font-family: 'Merienda', cursive;
+  margin-bottom: 2em;
 }
 
 footer {
   margin-bottom: -0.5em;
+}
+#maps{
+  width: 200px;
+  height: 200px;
+}
+a{
+  color: #45ADA8;
+
+}
+a:hover{
+  text-decoration: none;
+}
+footer{
+  margin: 0;
 }
