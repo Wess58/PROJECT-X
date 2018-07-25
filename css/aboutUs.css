@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#box1{
+  height: 100vh;
+  width: 100%;
+  background-image: url("http://i.imgur.com/D3JBiGn.jpg");
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+  background-size: cover;
+  background-attachment: fixed;
+  display:table;
+  text-align:center;
+  transform-style: preserve-3d;
+  position: relative;
+  font-size: 32px;
+  color: white;
+
+
+}
+
+#box1:hover{
+
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -ms-filter: blur(0px);
+  -o-filter: blur(0px);
+  filter: blur(0px);
+  color: white;
+}
+
+#box1 h1{
+  margin-top: 15em;
+  text-align: center;
+  font-size: 21px;
+  color: chartreuse;
+
+}
+
+#box2{
+  height: 100vh;
+  width: 100%;
+  background-color: #E5FCC2;
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  color: #45ADA8;
+  font-size: 25px;
+  font-family: 'Merienda', cursive;
+  text-align: center;
+}
+#box2 h1{
+  margin-top: 4em;
+}
+#box2 p{
+  font-size: 21px;
+
+}
+.cont1{
+  background-color: #E5FCC2;
+  box-shadow: 2px 5px 5px 2px  #797d7f ;
+  margin-bottom: 2em;
+}
+.btn-outline-success{
+  margin-bottom: 3em;
+  width: 130px;
+  transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.btn-outline-success:hover{
+  box-shadow: 0 10px 15px 0 grey ;
+}
+.jumbo{
+  margin-bottom: 2em;
+}
+.avatar{
+  width: 100px;
+  height: 100px;
+
+}
+.rowAV1{
+  margin-bottom: 3em;
+}
+h3{
+  font-family: 'Righteous', cursive;
+}
+.jumbo p{
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+}
