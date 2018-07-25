@@ -6,11 +6,14 @@
   <title>ART</title>
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
+  <link href="css/slider.css" rel="stylesheet">
   <link href="css/artistPage.css" rel="stylesheet">
   <link rel="stylesheet" href="css/animate.css">
   <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Handlee|Merienda" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
   <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/jssor.slider-27.4.0.min.js"></script>
+  <script src="js/sliderDry.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/scripts.js"></script>
 </head>
@@ -18,7 +21,7 @@
 <body>
   <div class="container-fluid">
     <!--................Navbar.....................-->
-    <nav class="navbar navbar-expand-lg animated bounceInDown">
+    <nav class="navbar navbar-expand-lg nav-pills">
       <a class="navbar-brand" href="#">ART te rue</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
@@ -75,7 +78,7 @@
       <div class="row artist-page-header">
         <div class="col-md-4 header-section-1">
           <img src="images/defaultArtistPage/user.png" alt="User Image">
-          <h3> Artist Name </h3>
+          <h3>Artist Name</h3>
         </div>
         <div class="col-md-8 header-section-2">
           <h3>Basic Info</h3>
@@ -83,11 +86,100 @@
           <p><span class="info-title">Location</span>: sdfsdf</p>
           <p><span class="info-title">Specialized in</span>: sdfsf</p>
           <p><span class="info-title">Bio</span>: sdfsd</p>
+          <span class="btn btn-primary hire" id="hire">Hire Me</span>
         </div>
       </div>
       <div class="artwork">
         <h2>Artwork</h2>
-        
+        <div id="jssor_1" class="container">
+            <!-- Loading Screen -->
+            <div data-u="loading" class="jssorl-009-spin">
+                <img src="images/defaultArtistPage/img/spin.svg" />
+            </div>
+            <div data-u="slides" id="slides">
+                <div>
+                    <img data-u="image" src="images/defaultArtistPage/img/004.jpg" />
+                    <img data-u="thumb" src="images/defaultArtistPage/img/004-s99x66.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="images/defaultArtistPage/img/005.jpg" />
+                    <img data-u="thumb" src="images/defaultArtistPage/img/005-s99x66.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="images/defaultArtistPage/img/006.jpg" />
+                    <img data-u="thumb" src="images/defaultArtistPage/img/006-s99x66.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="images/defaultArtistPage/img/007.jpg" />
+                    <img data-u="thumb" src="images/defaultArtistPage/img/007-s99x66.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="images/defaultArtistPage/img/008.jpg" />
+                    <img data-u="thumb" src="images/defaultArtistPage/img/008-s99x66.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="images/defaultArtistPage/img/009.jpg" />
+                    <img data-u="thumb" src="images/defaultArtistPage/img/009-s99x66.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="images/defaultArtistPage/img/010.jpg" />
+                    <img data-u="thumb" src="images/defaultArtistPage/img/010-s99x66.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="images/defaultArtistPage/img/013.jpg" />
+                    <img data-u="thumb" src="images/defaultArtistPage/img/013-s99x66.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="images/defaultArtistPage/img/014.jpg" />
+                    <img data-u="thumb" src="images/defaultArtistPage/img/014-s99x66.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="images/defaultArtistPage/img/015.jpg" />
+                    <img data-u="thumb" src="images/defaultArtistPage/img/015-s99x66.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="images/defaultArtistPage/img/016.jpg" />
+                    <img data-u="thumb" src="images/defaultArtistPage/img/016-s99x66.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="images/defaultArtistPage/img/017.jpg" />
+                    <img data-u="thumb" src="images/defaultArtistPage/img/017-s99x66.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="images/defaultArtistPage/img/callig.jpg" />
+                    <img data-u="thumb" src="images/defaultArtistPage/img/callig.jpg" />
+                </div>
+            </div>
+            <!-- Thumbnail Navigator -->
+            <div data-u="thumbnavigator" class="jssort101"  data-autocenter="2" data-scale-left="0.75">
+                <div data-u="slides">
+                    <div data-u="prototype" class="p" style="width:140px;height:95px;">
+                        <div data-u="thumbnailtemplate" class="t"></div>
+                        <svg viewbox="0 0 16000 16000" class="cv">
+                            <circle class="a" cx="8000" cy="8000" r="3238.1"></circle>
+                            <line class="a" x1="6190.5" y1="8000" x2="9809.5" y2="8000"></line>
+                            <line class="a" x1="8000" y1="9809.5" x2="8000" y2="6190.5"></line>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <!-- Arrow Navigator -->
+            <div data-u="arrowleft" class="jssora093" id="arrowLeft" data-autocenter="2">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <circle class="c" cx="8000" cy="8000" r="5920"></circle>
+                    <polyline class="a" points="7777.8,6080 5857.8,8000 7777.8,9920 "></polyline>
+                    <line class="a" x1="10142.2" y1="8000" x2="5857.8" y2="8000"></line>
+                </svg>
+            </div>
+            <div data-u="arrowright" class="jssora093" id="arrowRight" data-autocenter="2">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <circle class="c" cx="8000" cy="8000" r="5920"></circle>
+                    <polyline class="a" points="8222.2,6080 10142.2,8000 8222.2,9920 "></polyline>
+                    <line class="a" x1="5857.8" y1="8000" x2="10142.2" y2="8000"></line>
+                </svg>
+            </div>
+        </div>
+
       </div>
     </div>
     <!-- ...............................END ARTIST PAGE ..................................-->
