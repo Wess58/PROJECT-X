@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant');
-
+@import url('https://fonts.googleapis.com/css?family=Rancho');
 body{
   margin: 0;
   padding: 0;
@@ -16,7 +16,7 @@ body{
   text-align:center;
   transform-style: preserve-3d;
   position: relative;
-  font-family: 'Cormorant', serif;
+  font-family: 'Rancho', cursive;
   font-size: 32px;
   color: black;
 }
@@ -41,7 +41,7 @@ body{
   font-size: 25px;
   font-family: 'Merienda', cursive;
   text-align: center;
-  width: 
+  width:
 
 }
 #box2 p{
