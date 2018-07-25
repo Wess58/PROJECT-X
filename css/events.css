@@ -7,7 +7,7 @@ Dark Blue: #173e43
 @import url('https://fonts.googleapis.com/css?family=Arvo|Bitter|EB+Garamond|Poppins|Rubik|Source+Serif+Pro|Work+Sans');
 
 
-.container-fill {
+.container-fluid {
   background: #173e43;
 }
 
@@ -133,7 +133,7 @@ Dark Blue: #173e43
 }
 
 .timeline-badge.light {
-  background-color: #44cdc8 !important;
+  background-color: #449ccd !important;
 }
 
 .timeline-badge.beige {
@@ -156,13 +156,13 @@ Dark Blue: #173e43
   background-color: #5bc0de !important;
 }
 
-.timeline-panel a {
+.timeline-panel {
   color: black;
 }
 
-.timeline-panel a:hover {
-  text-decoration: none;
-  cursor: pointer;
+
+.timeline-panel a {
+  margin: 3% 0;
 }
 
 .timeline-panel.card:hover {
@@ -170,8 +170,18 @@ Dark Blue: #173e43
   transition: 0.5s ease;
 }
 
+.timeline-title:hover{
+  cursor: pointer;
+  text-decoration: underline black;
+}
+
+
 .timeline-title {
   margin-top: 0;
+}
+
+.timeline-body  {
+  display: none;
 }
 
 .timeline-body p, .timeline-body ul {
@@ -191,6 +201,11 @@ Dark Blue: #173e43
   padding: 1%;
   margin: 0;
 }
+
+.open-caret {
+    transform: rotate(180deg);
+    transition: all .25s ease-out;
+  }
 
 @media (max-width: 767px) {
   ul.timeline:before {
