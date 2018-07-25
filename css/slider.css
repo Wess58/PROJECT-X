@@ -1,10 +1,19 @@
 /*jssor slider loading skin spin css*/
-
 .jssorl-009-spin img {
   animation-name: jssorl-009-spin;
   animation-duration: 1.6s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+}
+
+#slides {
+  cursor: default;
+  position: relative;
+  top: 0px;
+  left: 310px;
+  width: 1990px;
+  height: 720px;
+  overflow: hidden;
 }
 
 @keyframes jssorl-009-spin {
@@ -19,7 +28,7 @@
 /*jssor slider arrow skin 093 css*/
 
 .jssora093 {
-  display: block;
+  display: flex;
   position: absolute;
   cursor: pointer;
 }
@@ -130,15 +139,16 @@
 /*........DRYING CODE.........*/
 
 #jssor_1 {
+  display: flex;
   position: relative;
   margin: 0 auto;
   top: 0px;
   left: 0px;
-  width: 960px;
-  height: 480px;
+  width: auto;
+  height: auto;
   overflow: hidden;
   visibility: hidden;
-  background-color: #24262e;
+  background-color: #090909;
 }
 
 .jssorl-009-spin {
@@ -163,8 +173,8 @@
   position: absolute;
   left: 0px;
   top: 0px;
-  width: 240px;
-  height: 480px;
+  width: 310px;
+  height: 720px;
   background-color: #000;
 }
 
@@ -179,5 +189,10 @@
   width: 50px;
   height: 50px;
   top: 0px;
-  left: 270px;
+  left: 340px;
+}
+
+.artwork .container{
+  display: flex;
+  width: 1440px;
 }
