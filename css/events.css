@@ -8,7 +8,7 @@ Dark Blue: #173e43
 
 
 .container-fill {
-  background: #173e43;
+    background-image: linear-gradient(to right, black, #9A2617, #008B8B, black);
 }
 
 .navbar {
