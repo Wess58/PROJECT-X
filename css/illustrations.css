@@ -1,0 +1,23 @@
+body {
+  font-family: 'Handlee', cursive;
+  background-image: linear-gradient(#8FB9A8, #FEFAD4, #FCD0BA, #F1828D, #765D69);
+  text-align: center;
+  font-size: 30px;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+h1, h3 {
+  padding: 20px;
+  text-align: center;
+}
