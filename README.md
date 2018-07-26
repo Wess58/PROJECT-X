@@ -9,7 +9,7 @@
 
 ## Description
 
-  This is website aimed at bridging the apparent gap amongst artists in out time and more so dealing with the issue of marketing their art.It's pretty hard to find a community of artists where they can share their ideas and skills since art is really dynamic.Our website provides a platform where artsists can share their incredible pieces and potentially get jobs off of them.
+Making art is a passionate activity by dedicated individuals. Creating new paintings, drawings, sculptures, or photographs is time consuming and you still need to find time to present your work to new audiences.For any artist, whether your art career is just starting, or if you've already got a big following marketing and finding just the appropriate audience is quite a headache.This website is aimed at providing artists in our time with a tool to help with the issue of marketing their art and more so bridging the apparent gap between artists and clients.It's pretty hard for artists find to a community where they can share their ideas and skills since art is broad and incredibly dynamic.We provide a platform for emerging and established artists to exhibit, promote, and share their works with an enthusiastic, art-centric community. Our members upload thousands of original pieces of art every day, everything from breathtaking paintings and sculptures to pencil art, unimaginable digital art, pixel art or even show-stopping murals.
 
 ### Prerequisites
 
@@ -40,22 +40,6 @@ Feel free to edit the files to your prefered taste
 
 MIT License
 
+This website is under the MIT license which can be found [HERE](LICENSE).
+
 Copyright (c) 2018 Art
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.

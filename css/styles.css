@@ -8,6 +8,18 @@
 .navbar li a {
   color: #9A2617;
 }
+
+.fas.fa-bars {
+  color: white;
+}
+.navbar .nav-link.active {
+  background: #9A2617;
+  color: white;
+}
+.navbar .nav-link:hover {
+  background: #008888;
+  color: white;
+}
 /*............................endNag................*/
 /*.............................body................ */
 body {
@@ -23,7 +35,7 @@ hr {
 /*.....................JUMBOTRON.................*/
 .jumbotron {
   padding: 0;
-  border-top: 50px;
+  border-top: 50px;     
   margin: 0;
   vertical-align: top;
 }
@@ -223,6 +235,8 @@ hr {
 footer {
   font-family: 'Handlee', cursive;
   font-size: 20px;
+  background: #212121;
+  color: white;
 }
 
 

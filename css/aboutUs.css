@@ -3,13 +3,34 @@ body{
   margin: 0;
   padding: 0;
 }
+/*...............NAVIGATION...............*/
+.navbar {
+  font-family: 'Handlee', cursive;
+  background-color: #212121;
+  font-size: 25px;
+}
+
+.navbar li a {
+  color: #9A2617;
+}
+
+.fas.fa-bars {
+  color: white;
+}
+.navbar .nav-link.active {
+  background: #9A2617;
+  color: white;
+}
+.navbar .nav-link:hover {
+  background: #008888;
+  color: white;
+}
 
 #box1{
   height: 80vh;
   width: 100%;
-  margin-bottom: -0.75em;
+  margin-bottom: -1.455em;
   background:linear-gradient(#F8B195, #F67280, #C06C84, #6C5B7B, #355C7D);
-
   background-size: cover;
   background-attachment: fixed;
   display:table;
@@ -18,20 +39,27 @@ body{
   position: relative;
   font-family: 'Rancho', cursive;
   font-size: 32px;
-  color: black;
 }
 
 #box1 h1{
-    text-align: center;
+  text-align: center;
   font-size: 21px;
   color: black;
   font-family: 'Cormorant', serif;
+}
+#lorem1{
+  color: white;
+  font-size: 32px;
+}
+#lorem2{
+  color: black;
+  font-size: 32px;
 }
 
 #box2{
   height: 100vh;
   width: 100%;
-  margin 0;
+  margin: 0;
   padding: 20px;
   background: linear-gradient(#FE4365, #FC9D9A,  #F9CDAD, #C8C8A9, #83AF9B);
   background-size: cover;
@@ -41,9 +69,8 @@ body{
   font-size: 25px;
   font-family: 'Merienda', cursive;
   text-align: center;
-  width:
-
 }
+
 #box2 p{
   font-size: 21px;
 
