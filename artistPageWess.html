@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="referrer" content="origin">
-  <title>Wess</title>
+  <title>ART by Wess</title>
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
   <link href="css/slider.css" rel="stylesheet">
-  <link href="css/artistWess.css" rel="stylesheet">
+  <link href="css/artistPageWess.css" rel="stylesheet">
   <link rel="stylesheet" href="css/animate.css">
   <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Handlee|Merienda" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
@@ -17,7 +17,7 @@
   <script src="js/sliderDry.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/scripts.js"></script>
-  <script src="js/artistWess.js" charset="utf-8"></script>
+  <script src="js/artistPageWess.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -44,7 +44,7 @@
         </ul>
         <ul class="navbar-nav pull-right">
           <li class="nav-item">
-            <a class="nav-link ml-auto" href="#" id="artists">Wess</a>
+            <a class="nav-link ml-auto" href="#" id="login-nav">Login</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -55,17 +55,43 @@
     </nav>
     <!--................endNavbar.....................-->
 
-    <!-- ..................logout modal.................... -->
-    <div id="id03" class="modal">
-      <form class="modal-content animate" action="/action_page.php">
+    <!-- ..................login modal.................... -->
+    <div id="id01" class="modal">
+      <form class="modal-content animate">
         <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" id="uname" required>
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" id="psw" required>
+          <button type="button" id='loginButton'>Login</button>
+          <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+      <img src="images/btn_google_signin_light_disabled_web.png" alt="google signin">
+        </div>
         <div class="container" style="background-color:#f1f1f1">
-          <button type="button" class="cancelbtn" id="logout">Logout</button>
+          <button type="button" class="cancelbtn" id="login-cancel">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
         </div>
       </form>
     </div>
     <!-- ......................end login modal......................... -->
 
+    <!-- ........................hire modal............................ -->
+    <div id="id02" class="modal">
+      <form method="POST" action="https://formspree.io/jameslove84-pagetest@yahoo.com" class="modal-content animate">
+        <span class="close" title="Close Modal">&times;</span>
+        <div class="container">
+          <input type="text" name="name" placeholder="Your name">
+          <input type="email" name="email" placeholder="Your email">
+          <textarea name="message" placeholder="Your message"></textarea><br>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- .......................end hire modal..........................  -->
 
     <!-- ............................... ARTIST PAGE ..................................-->
     <div class="artistPage">
@@ -80,9 +106,7 @@
           <p id="city"><span class="info-title">Location</span>: Nairobi</p>
           <p id="speciality"><span class="info-title">Specialized in</span>: Illustrations</p>
           <p id="bio"><span class="info-title">Bio</span>: Began to love art after seeing a live caricature session. tried my hand at portraits and the love for art grew in leaps and bounds from there...</p>
-          <span class="btn btn-primary hire" id="editInfo">Edit Info</span>
-          <span class="btn btn-primary hire" id="editInfo">upload</span>
-          <span class="btn btn-primary hire" id="saveInfo">Save Info</span>
+          <span class="btn btn-primary hire" id="hire">Hire Me</span>
         </div>
       </div>
       <div class="artwork">

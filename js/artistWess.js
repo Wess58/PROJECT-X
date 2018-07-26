@@ -27,7 +27,7 @@ $(document).ready(function() {
 
   $('#logout').click(function() {
     $('#id03').css('display', 'none');
-    window.location.replace("artistPage.html");
+    window.location.replace("artistPageWess.html");
   });
 
   $('.close').click(function() {
