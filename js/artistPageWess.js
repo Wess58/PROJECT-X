@@ -20,8 +20,7 @@ $(document).ready(function() {
     }
   });
 
-  $('#loginButton').click(function(event){
-    event.preventDefault();
+  $('#loginButton').click(function(){
     window.location.replace("artistWess.html");
   });
 });

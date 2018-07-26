@@ -33,4 +33,7 @@ $(document).click(function(event){
     $('#id01').css('display','none');
   }
 });
+$('#loginButton').click(function(){
+  window.location.replace("artistWess.html");
+});
  });
