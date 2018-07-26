@@ -18,7 +18,6 @@ body{
   position: relative;
   font-family: 'Rancho', cursive;
   font-size: 32px;
-  color: black;
 }
 
 #box1 h1{
@@ -26,6 +25,14 @@ body{
   font-size: 21px;
   color: black;
   font-family: 'Cormorant', serif;
+}
+#lorem1{
+  color: white;
+  font-size: 32px;
+}'
+#lorem2{
+  color: black;
+  font-size: 32px;
 }
 
 #box2{
