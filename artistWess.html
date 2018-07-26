@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="referrer" content="origin">
-  <title>ART</title>
+  <title>Wess</title>
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
   <link href="css/slider.css" rel="stylesheet">
-  <link href="css/artistPage.css" rel="stylesheet">
+  <link href="css/artistWess.css" rel="stylesheet">
   <link rel="stylesheet" href="css/animate.css">
   <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Handlee|Merienda" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
@@ -17,7 +17,7 @@
   <script src="js/sliderDry.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/scripts.js"></script>
-  <script src="js/artistPage.js" charset="utf-8"></script>
+  <script src="js/artistWess.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -44,7 +44,7 @@
         </ul>
         <ul class="navbar-nav pull-right">
           <li class="nav-item">
-            <a class="nav-link ml-auto" href="#" id="login-nav">Login</a>
+            <a class="nav-link ml-auto" href="#" id="artists">Wess</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -55,58 +55,34 @@
     </nav>
     <!--................endNavbar.....................-->
 
-    <!-- ..................login modal.................... -->
-    <div id="id01" class="modal">
+    <!-- ..................logout modal.................... -->
+    <div id="id03" class="modal">
       <form class="modal-content animate" action="/action_page.php">
         <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-        <div class="container">
-          <label for="uname"><b>Username</b></label>
-          <input type="text" placeholder="Enter Username" name="uname" required>
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
-          <button type="submit">Login</button>
-          <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-        </div>
         <div class="container" style="background-color:#f1f1f1">
-          <button type="button" class="cancelbtn" id="login-cancel">Cancel</button>
-          <span class="psw">Forgot <a href="#">password?</a></span>
-          <span class="psw">Forgot <a href="#">password?</a></span>
+          <button type="button" class="cancelbtn" id="logout">Logout</button>
         </div>
       </form>
     </div>
     <!-- ......................end login modal......................... -->
 
-    <!-- ........................hire modal............................ -->
-    <div id="id02" class="modal">
-      <form method="POST" action="https://formspree.io/jameslove84-pagetest@yahoo.com" class="modal-content animate">
-        <span class="close" title="Close Modal">&times;</span>
-        <div class="container">
-          <input type="text" name="name" placeholder="Your name">
-          <input type="email" name="email" placeholder="Your email">
-          <textarea name="message" placeholder="Your message"></textarea><br>
-          <button type="submit" class="btn btn-primary">Send</button>
-        </div>
-      </form>
-    </div>
-
-    <!-- .......................end hire modal..........................  -->
 
     <!-- ............................... ARTIST PAGE ..................................-->
     <div class="artistPage">
       <div class="row artist-page-header">
         <div class="col-md-4 header-section-1">
           <img src="images/defaultArtistPage/user.png" alt="User Image">
-          <h3>Artist Name</h3>
+          <h3>Wess</h3>
         </div>
         <div class="col-md-8 header-section-2">
           <h3>Basic Info</h3>
-          <p><span class="info-title">Name</span>: asdfas</p>
-          <p><span class="info-title">Location</span>: sdfsdf</p>
-          <p><span class="info-title">Specialized in</span>: sdfsf</p>
-          <p><span class="info-title">Bio</span>: sdfsd</p>
-          <span class="btn btn-primary hire" id="hire">Hire Me</span>
+          <p id="namePlate"><span class="info-title">Name:</span> Wess</p>
+          <p id="city"><span class="info-title">Location</span>: Nairobi</p>
+          <p id="speciality"><span class="info-title">Specialized in</span>: Illustrations</p>
+          <p id="bio"><span class="info-title">Bio</span>: Began to love art after seeing a live caricature session. tried my hand at portraits and the love for art grew in leaps and bounds from there...</p>
+          <span class="btn btn-primary hire" id="editInfo">Edit Info</span>
+          <span class="btn btn-primary hire" id="editInfo">upload</span>
+          <span class="btn btn-primary hire" id="saveInfo">Save Info</span>
         </div>
       </div>
       <div class="artwork">
@@ -118,49 +94,48 @@
             </div>
             <div data-u="slides" id="slides">
                 <div>
-
-                    <img data-u="image" src="images/defaultArtistPage/img/004.jpg" />
-                    <img data-u="thumb" src="images/defaultArtistPage/img/004-s99x66.jpg" />
+                    <img data-u="image" src="images/carousel/guitar.jpg" />
+                    <img data-u="thumb" src="images/carousel/guitar.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" src="images/defaultArtistPage/img/005.jpg" />
-                    <img data-u="thumb" src="images/defaultArtistPage/img/005-s99x66.jpg" />
+                    <img data-u="image" src="images/artistWess/aleksandar94art-20170813-0001.jpg" />
+                    <img data-u="thumb" src="images/artistWess/aleksandar94art-20170813-0001.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" src="images/defaultArtistPage/img/006.jpg" />
-                    <img data-u="thumb" src="images/defaultArtistPage/img/006-s99x66.jpg" />
+                    <img data-u="image" src="images/artistWess/alissonmattos_art-20170521-0003.jpg" />
+                    <img data-u="thumb" src="images/artistWess/alissonmattos_art-20170521-0003.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" src="images/defaultArtistPage/img/007.jpg" />
-                    <img data-u="thumb" src="images/defaultArtistPage/img/007-s99x66.jpg" />
+                    <img data-u="image" src="images/artistWess/anieladarienzo-20170702-0003.jpg" />
+                    <img data-u="thumb" src="images/artistWess/anieladarienzo-20170702-0003.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" src="images/defaultArtistPage/img/008.jpg" />
-                    <img data-u="thumb" src="images/defaultArtistPage/img/008-s99x66.jpg" />
+                    <img data-u="image" src="images/artistWess/art.black_white-20170430-0006.jpg" />
+                    <img data-u="thumb" src="images/artistWess/art.black_white-20170430-0006.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" src="images/defaultArtistPage/img/009.jpg" />
-                    <img data-u="thumb" src="images/defaultArtistPage/img/009-s99x66.jpg" />
+                    <img data-u="image" src="images/artistWess/artc_fartc-20170430-0002.jpg" />
+                    <img data-u="thumb" src="images/artistWess/artc_fartc-20170430-0002.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" src="images/defaultArtistPage/img/010.jpg" />
-                    <img data-u="thumb" src="images/defaultArtistPage/img/010-s99x66.jpg" />
+                    <img data-u="image" src="images/artistWess/bratpck-20170521-0004.jpg" />
+                    <img data-u="thumb" src="images/artistWess/bratpck-20170521-0004.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" src="images/defaultArtistPage/img/013.jpg" />
-                    <img data-u="thumb" src="images/defaultArtistPage/img/013-s99x66.jpg" />
+                    <img data-u="image" src="images/artistWess/c.a.scarberry-20171022-0002.jpg" />
+                    <img data-u="thumb" src="images/artistWess/c.a.scarberry-20171022-0002.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" src="images/defaultArtistPage/img/014.jpg" />
-                    <img data-u="thumb" src="images/defaultArtistPage/img/014-s99x66.jpg" />
+                    <img data-u="image" src="images/artistWess/chiatasart-20170423-0002.jpg" />
+                    <img data-u="thumb" src="images/artistWess/chiatasart-20170423-0002.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" src="images/defaultArtistPage/img/015.jpg" />
-                    <img data-u="thumb" src="images/defaultArtistPage/img/015-s99x66.jpg" />
+                    <img data-u="image" src="images/artistWess/duende_arts_help-20170521-0001.jpg" />
+                    <img data-u="thumb" src="images/artistWess/duende_arts_help-20170521-0001.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" src="images/defaultArtistPage/img/016.jpg" />
-                    <img data-u="thumb" src="images/defaultArtistPage/img/016-s99x66.jpg" />
+                    <img data-u="image" src="images/artistWess/duende_arts_help-20170521-0002.jpg" />
+                    <img data-u="thumb" src="images/artistWess/duende_arts_help-20170521-0002.jpg" />
                 </div>
                 <div>
                     <img data-u="image" src="images/defaultArtistPage/img/017.jpg" />

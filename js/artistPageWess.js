@@ -19,4 +19,8 @@ $(document).ready(function() {
       $('#id02').css('display', 'none');
     }
   });
+
+  $('#loginButton').click(function(){
+    window.location.replace("artistWess.html");
+  });
 });
