@@ -1,3 +1,31 @@
+/*...............NAVIGATION...............*/
+#logo {
+  Width: 38px;
+  Height: 38px;
+}
+ 
+.navbar {
+  font-family: 'Handlee', cursive;
+  background-color: #212121;
+  font-size: 25px;
+}
+
+.navbar li a {
+  color: #9A2617;
+}
+
+.fas.fa-bars {
+  color: white;
+}
+.navbar .nav-link.active {
+  background: #9A2617;
+  color: white;
+}
+.navbar .nav-link:hover {
+  background: #008888;
+  color: white;
+}
+/*............................endNag................*/
 /* ........body.......... */
 body {
   font-family: 'Handlee', cursive;
