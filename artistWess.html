@@ -10,7 +10,7 @@
   <link href="css/slider.css" rel="stylesheet">
   <link href="css/artistWess.css" rel="stylesheet">
   <link rel="stylesheet" href="css/animate.css">
-  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Handlee|Merienda" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Handlee|Merienda|Righteous|Handlee|Shadows+Into+Light|Aladin|Allerta+Stencil|Berkshire+Swash|Condiment|Merienda+One|Mrs+Sheppards|Oregano|Rancho" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/jssor.slider-27.4.0.min.js"></script>
@@ -21,11 +21,11 @@
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div class="container-fill">
     <!--................Navbar.....................-->
     <nav class="navbar navbar-expand-lg nav-pills">
       <a class="navbar-brand" href="index.html">
-        <img src="images/logo.png" alt="logo" width="38" height="38">  ART te rue
+        <img src="images/logo.png" alt="logo" width="38" height="38"><span class="fullBrand">arti<span class="Sbrand">s</span>anss</span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
@@ -42,9 +42,9 @@
             <a class="nav-link" href="events.html">Events</a>
           </li>
         </ul>
-        <ul class="navbar-nav pull-right">
+        <ul class="navbar-nav nav-pills pull-right">
           <li class="nav-item">
-            <a class="nav-link ml-auto" href="#" id="artists">Wess</a>
+            <a class="nav-link ml-auto active" href="#" id="artists">Wess</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -81,7 +81,7 @@
           <p id="speciality"><span class="info-title">Specialized in</span>: Illustrations</p>
           <p id="bio"><span class="info-title">Bio</span>: Began to love art after seeing a live caricature session. tried my hand at portraits and the love for art grew in leaps and bounds from there...</p>
           <span class="btn btn-primary hire" id="editInfo">Edit Info</span>
-          <span class="btn btn-primary hire" id="editInfo">upload</span>
+          <button class="btn btn-disabled hire" id="editInfo" disabled>upload</button>
           <span class="btn btn-primary hire" id="saveInfo">Save Info</span>
         </div>
       </div>
@@ -184,7 +184,7 @@
     <!--.....................Footer....................-->
     <footer class="page-footer font-small blue">
       <div class="footer-copyright text-center py-3" style="background: #212121; color: white;">© 2018 Copyright:
-        <a href="#">Art te rue</a>
+        <a href="#">artissans</a>
       </div>
     </footer>
 

@@ -2,6 +2,8 @@
 body{
   margin: 0;
   padding: 0;
+  background: linear-gradient(#F8B195, #F67280, #C06C84, #6C5B7B, #355C7D);
+
 }
 /*...............NAVIGATION...............*/
 .navbar {
@@ -14,7 +16,7 @@ body{
   color: #9A2617;
 }
 
-.fas.fa-bars {
+.fas .fa-bars {
   color: white;
 }
 .navbar .nav-link.active {
@@ -25,12 +27,24 @@ body{
   background: #008888;
   color: white;
 }
+.fullBrand {
+  font-family: "Allerta Stencil";
+  font-size: 28px;
+  color: #00cccc;
+}
+.fullBrand .Sbrand{
+  padding: 0;
+  margin: 0;
+  font-family: "Oregano";
+  font-size: 38px;
+  color: #de3721;
+}
 
 #box1{
   height: 80vh;
   width: 100%;
+  padding-top: 30px;
   margin-bottom: -1.455em;
-  background:linear-gradient(#F8B195, #F67280, #C06C84, #6C5B7B, #355C7D);
   background-size: cover;
   background-attachment: fixed;
   display:table;
@@ -48,7 +62,7 @@ body{
   font-family: 'Cormorant', serif;
 }
 #lorem1{
-  color: white;
+  color: black;
   font-size: 32px;
 }
 #lorem2{
@@ -61,11 +75,10 @@ body{
   width: 100%;
   margin: 0;
   padding: 20px;
-  background: linear-gradient(#FE4365, #FC9D9A,  #F9CDAD, #C8C8A9, #83AF9B);
   background-size: cover;
   display: table;
   background-attachment: fixed;
-  color: #45ADA8;
+  color: black;
   font-size: 25px;
   font-family: 'Merienda', cursive;
   text-align: center;
@@ -92,7 +105,7 @@ body{
 .jumbo{
   margin: 0;
   padding: 20px 0 10px 0;
-  background-color: #e9ecef;
+
   text-align: center;
   font-size: 23px;
 }
@@ -103,7 +116,15 @@ body{
 }
 
 .rowAV1{
+  margin: 0;
   margin-bottom: 3em;
+}
+.rowAV2{
+  margin: 0;
+}
+
+.quotes {
+  color: white;
 }
 h3{
   font-family: 'Righteous', cursive;

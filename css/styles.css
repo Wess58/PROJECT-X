@@ -20,6 +20,18 @@
   background: #008888;
   color: white;
 }
+.fullBrand {
+  font-family: "Allerta Stencil";
+  font-size: 28px;
+  color: #00cccc;
+}
+.fullBrand .Sbrand{
+  padding: 0;
+  margin: 0;
+  font-family: "Oregano";
+  font-size: 38px;
+  color: #de3721;
+}
 /*............................endNag................*/
 /*.............................body................ */
 body {
@@ -35,7 +47,7 @@ hr {
 /*.....................JUMBOTRON.................*/
 .jumbotron {
   padding: 0;
-  border-top: 50px;     
+  border-top: 50px;
   margin: 0;
   vertical-align: top;
 }

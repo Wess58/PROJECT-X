@@ -4,13 +4,14 @@ beige: #fae596
 Light blue: #3fb0ac
 Dark Blue: #173e43
 */
-@import url('https://fonts.googleapis.com/css?family=Arvo|Bitter|EB+Garamond|Poppins|Rubik|Source+Serif+Pro|Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Arvo|Bitter|EB+Garamond|Poppins|Rubik|Source+Serif+Pro|Work+Sans|Fredericka+the+Great|Handlee|Merienda|Righteous|Handlee|Shadows+Into+Light|Aladin|Allerta+Stencil|Berkshire+Swash|Condiment|Merienda+One|Mrs+Sheppards|Oregano|Rancho');
 
 
 .container-fill {
     background-image: linear-gradient(to right, black, #9A2617, #008B8B, black);
 }
 
+/*...............NAVIGATION...............*/
 .navbar {
   font-family: 'Handlee', cursive;
   background-color: #212121;
@@ -24,7 +25,6 @@ Dark Blue: #173e43
 .fas.fa-bars {
   color: white;
 }
-
 .navbar .nav-link.active {
   background: #9A2617;
   color: white;
@@ -32,6 +32,18 @@ Dark Blue: #173e43
 .navbar .nav-link:hover {
   background: #008888;
   color: white;
+}
+.fullBrand {
+  font-family: "Allerta Stencil";
+  font-size: 28px;
+  color: #00cccc;
+}
+.fullBrand .Sbrand{
+  padding: 0;
+  margin: 0;
+  font-family: "Oregano";
+  font-size: 38px;
+  color: #de3721;
 }
 
 .page-header {
